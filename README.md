@@ -2,14 +2,17 @@
 Cyclone is a popular game found in most arcades. It involves a player timing a button press when an LED light hits a certain location. Normally, in an arcade, a player only has one chance to press the button to land on the correct LED. Otherwise, they immediately lose. In this version of Cyclone however, the game will start off with a set light speed, with a marked light as the target for the player. Every successful timed button press will result in a point earned, and the speed of the light increasing. The goal of the game is to score as many points as possible. The game continues until the player fails to time the button press properly (i.e. the light does not land on the target).
 
 **Hardware Components**
+
 Computing
 ATmega328 Microcontroller
 
 **Inputs**
+
 Control button: to stop the light (for the game itself)
 Stop button and reset button
 
 **Outputs**
+
 HiLetgo MAX7219 Dot Matrix Module for Arduino Microcontroller 4 in 1 Display with 5pin Line - This is to output the actual game itself, and messages before the game starts.
 Passive buzzer - This will play certain notes denoting a successful button press or failed button press. A simple tune will also be played throughout the game.
 4D7S - This will be used to output the current score.
